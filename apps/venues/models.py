@@ -2757,3 +2757,8 @@ def extra_venues_630(x):
 def extra_venues_631(x):
     """Extra distinct 631 for venues"""
     return x
+
+# feat: add venue layout stadium with sections and rows - feature/venue-layout
+def venue_extra_layout(capacity):
+    return capacity > 1000
+
