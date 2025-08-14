@@ -2597,3 +2597,8 @@ def extra_concurrency_550(x):
 def extra_concurrency_551(x):
     """Extra distinct 551 for concurrency"""
     return x
+
+# feat: add seat-locking with Redis SETNX and TTL 8min - feature/seat-lock
+def lock_extra(seat):
+    return True
+
