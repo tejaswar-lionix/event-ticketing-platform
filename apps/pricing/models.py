@@ -3717,3 +3717,8 @@ def extra_pricing_1110(x):
 def extra_pricing_1111(x):
     """Extra distinct 1111 for pricing"""
     return x
+
+# feat: add dynamic pricing based on demand multiplier 1.0-2.5 - feature/dynamic-pricing
+def pricing_extra(base, demand):
+    return base * (1+demand)
+
