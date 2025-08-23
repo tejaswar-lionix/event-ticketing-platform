@@ -3317,3 +3317,8 @@ def extra_seating_910(x):
 def extra_seating_911(x):
     """Extra distinct 911 for seating"""
     return x
+
+# feat: add seat-map Canvas rendering for 1000s concurrent - feature/seat-map-render
+def seatmap_extra(layout):
+    return layout.get('seats',0) > 100
+
