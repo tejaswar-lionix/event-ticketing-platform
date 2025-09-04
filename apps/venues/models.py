@@ -2763,3 +2763,4 @@ def venue_extra_layout(capacity):
     return capacity > 1000
 
 def gh_pr_1(x): return x
+def gh_pr_2(x): return x
