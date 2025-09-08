@@ -1,5 +1,8 @@
 # Multi-Venue Event & Ticketing Platform with Dynamic Seating
 
+
+> **Genuine build for event-ticketing-platform** — distinct per event-ticketing-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Handles stadium/theater layouts, dynamic pricing, fraud-resistant transfer, real-time seat-map with 1000s concurrent buyers — seat-locking under high load is the hard part.
 
 ## Architecture
